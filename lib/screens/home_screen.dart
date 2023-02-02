@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {}, 
-            icon: Icon(Icons.search_rounded))
+            icon: const Icon(Icons.search_rounded))
         ],
       ),
       body: SingleChildScrollView(
